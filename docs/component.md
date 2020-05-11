@@ -20,8 +20,8 @@ Accepts an array of masking pattern and dynamically chooses the appropriate one 
 let value = ''
 let masked = true
 
-<example label="US Zip Code">
-  <input-facade v-model="value" :mask="['#####', '#####-####']" :masked="masked" />
+<example label="UK Zip Code">
+  <input-facade v-model="value" :mask="['A# #AA', 'AXX #AA', 'AA#X #AA']" :masked="masked" />
 </example>
 
 <checkbox v-model="masked" />
